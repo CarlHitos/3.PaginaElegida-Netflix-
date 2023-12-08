@@ -16,16 +16,16 @@
                     <span class="logo-netflix"></span>
                 </div>
                 <div class="buttons">
-                    <div class="button-language">
-                        <div class="logo-languages">
-                            <span></span>
-                        </div>
-                        <select labelid="language-switcher" id="e21cf076a8b70" name="LanguageSelect"
-                            data-uia="language-picker-header">
-                            <option selected="" lang="es" label="Español" value="es-ES">Español</option>
-                            <option lang="en" label="English" value="en-ES">English</option>
-                        </select>
-                        <div class="dropdown-logo"></div>
+                    <div class="dropdown-language">
+                            <button class="dropdown-button">
+                                <span class="logo-languages"></span>
+                                Español
+                                <span class="dropdown-logo"></span>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Español</a>
+                                <a href="#">English</a>
+                            </div>
                     </div>
                     <div class="button-login">
                         <a role="button" href="https://www.netflix.com/es/login">Iniciar sesión</a>
@@ -43,9 +43,8 @@
                             reactivarla.</h3>
                         <div class="box-register">
                         <div class="box-email">
-                            <label for="correo">Direccion de correo</label>
                             <div class="input">
-                                <input autocomplete="email" minlength="5" maxlength="50" type="email" id="correo"
+                                <input autocomplete="email" minlength="5" placeholder="Direccion de correo" maxlength="50" type="email" id="correo"
                                     name="email" value="">
                             </div>
                         </div>
@@ -113,23 +112,23 @@
                     </div>
                 </div>
             </div>
+            <div class="section-email-2">
+                <form class="register" aria-label="Suscríbete a Netflix o reactiva tu suscripción." method="post">
+                    <h3>¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o
+                        reactivarla.</h3>
+                    <div class="box-register-2">
+                    <div class="box-email-2">
+                        <div class="input-2">
+                            <input autocomplete="email" minlength="5" placeholder="Direccion de correo" maxlength="50" type="email" id="correo"
+                                name="email" value="">
+                        </div>
+                    </div>
+                    <button role="button" type="submit">Empezar > </button>
+                    </div>
+            </div>
         </div>
         <div class="section-3">
-            <div>
-                <ul>
-                    <li>
-                        <h3>
-                            <button>
-                                <span>¿Qué es Netflix?</span>
-                            </button>
-                        </h3>
-                        <div>
-                            <span>Netflix es un servicio de streaming que ofrece una amplia variedad de series, películas, títulos de anime, documentales y otros contenidos premiados en miles de dispositivos conectados a internet. Puedes ver todo lo que quieras, cuando quieras, por una tarifa mensual reducida. ¡Siempre hay algo nuevo que descubrir, y cada semana se añaden nuevas series y películas!</span>
-                        </div>
-                    </li>
-                    <!-- Repite el mismo patrón para los demás elementos -->
-                </ul>
-            </div>
+
             
         </div>
 
